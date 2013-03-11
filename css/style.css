@@ -1,0 +1,141 @@
+body {
+  margin: 0 auto;
+  font-family: Optima, Arial, sans-serif;
+  background: url(../images/subtle_white_feathers.png);
+  background-repeat: repeat;
+}
+
+header{
+  display: block;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+
+footer {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+
+}
+
+footer p {
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+h3 {
+margin-bottom: -10px;
+margin-top: 25px;
+}
+
+blockquote {
+  font-style: italic;
+}
+ul li {
+  list-style: none;
+}
+
+#list_left {
+  float: left;
+  width: 250px;
+  margin-right: 40px;
+  /*border: 1px solid black;*/
+}
+
+#list_right {
+    width: 500px;
+    /*border: 1px solid black;*/
+
+}
+
+
+#nav {
+  display: block;
+  margin-bottom: 10px;
+  border-top: 1px black solid;
+    border-bottom: 1px black solid;
+  line-height: 20px;
+}
+header h1 {
+  text-align: center;
+  font-size: 40px;
+}
+#nav ul {
+  list-style: none;
+  font-size: 16px;
+}
+#nav ul li {
+  display: inline;
+}
+#nav ul li a {
+  /*display: block;*/
+  /*float: left;*/
+  padding: 3px 6px;
+  color: #575c7d;
+  text-decoration: none;
+  font-weight: bold;
+}
+#nav ul li a:hover {
+  background: #deff90;
+  color: #485e0f;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 3px 6px;
+  margin: 0;
+  text-decoration: none;
+}
+/* page core */
+#core {
+  display: block;
+  clear: both;
+  margin: 20px;
+  /*border: 1px black solid;*/
+
+}
+#left {
+  width: 600px;
+  float: left;
+  margin: 0 15px;
+  /*border: 2px green solid;*/
+}
+#right {
+  /*border: 3px red solid;*/
+  float: left;
+  width: 350px;
+  /*border: 3px red solid;*/
+  margin-left: 2em;
+}
+
+#right p img {
+  border: 2px #bbb solid;
+  border-radius: 3px;
+  height: 470px;
+  width: 19em;
+  margin-left: 1.5em;
+  background: auto;
+  -webkit-box-shadow: 2px 2px 1px 1px #ccc;
+  box-shadow: 2px 2px 1px 1px #ccc;
+}
+
+
+/* clearfix */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.clearfix {
+  display: inline-block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+* html .clearfix {
+  height: 1%;
+}
